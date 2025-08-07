@@ -1,0 +1,151 @@
+
+@media (max-width: 900px){
+    .about-content h1 {
+        max-width: 80%;
+    }
+}
+
+
+@media (max-width: 840px){
+    .mobile-menu {
+        display: initial;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background: #fff;
+        position: absolute;
+        left: 0;
+        top: -700px;
+        gap: 1rem;
+        padding: 10px 0px;
+        transition: .4s;
+    }
+    .menu a {
+        margin-left: 20px;
+        color: #000;
+        font-size: 15px;
+        font-weight: 500;
+        padding-top: 5px;
+    }
+    .right {
+        display: none;
+    }
+    .about-content h1 {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 767px){
+    .about-warpper {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .about-content {
+        width: 100%;
+    }
+    .about-content p {
+        max-width: 100%;
+    }
+    .about-content-warpper {
+        grid-template-columns: repeat(auto-fit, minmax(80% , 1fr));
+        margin-top: 60px;
+    }
+    .about-content-box {
+        padding: 10px;
+        background: #fff;
+        border-radius: 5px;
+    }
+    .services-heading h2 {
+        font-size: 42px;
+    }
+    .services-heading p {
+        max-width: 90%;
+    }
+    .services-warpper {
+        grid-template-columns: repeat(auto-fit, minmax(80% , 1fr));
+    }
+    .brands{
+        padding-bottom: 20px;
+    }
+    .contact-warpper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contact-info {
+        border-right: 0;
+        padding-right: 0px;
+    }
+    .contact-form {
+        padding-left: 0;
+    }
+    .contact-form input {
+        width: auto;
+    }
+    .contact-form textarea {
+        width: auto;
+    }
+    .rating {
+        position: relative;
+        top: 17%;
+    }
+    .testimonial-retting-warpper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(40% , 1fr));
+        /* gap: 1rem; */
+    }
+}
+
+@media (max-width: 632px){
+    .home-content h1 {
+        font-size: 45px;
+        line-height: 65px;
+    }
+    .about-content h1 {
+        max-width: 80%;
+        font-size: 34px;
+    }
+}
+@media (max-width: 450px){
+    .about-content h1 {
+        max-width: 80%;
+        font-size: 30px;
+    }
+
+}
+@media (max-width: 428px){
+    .home-content h1 {
+        font-size: 36px;
+        line-height: 58px;
+    }
+    .rating {
+        top: 15%;
+    }
+    .rate span {
+        font-size: 38px;
+    }
+    .about-title h2 {
+        font-size: 18px;
+    }
+    .about-content h1 {
+        max-width: 80%;
+        font-size: 23px;
+    }
+    .services-heading h2 {
+        font-size: 34px;
+    }
+}
+@media (max-width: 328px){
+    .home-content h1 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .home-btn a {
+        margin-right: 13px;
+    }
+}
+
+.active{
+    top: 70px;
+}
